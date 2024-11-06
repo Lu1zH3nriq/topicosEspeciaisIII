@@ -1,0 +1,8 @@
+1. Instale a biblioteca ntplib, caso ela ainda não esteja instalada, usando o comando:
+    pip install ntplib
+
+2. Em Python, o fuso horário não é gerenciado pelo protocolo NTP, então será usada a biblioteca pytz para definir os fusos horários específicos do programa. Instale o pytz com o comando:
+    pip install pytz
+
+3. Execute o código no terminal do Codespace:
+    python ntp_time.py
